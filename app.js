@@ -6,6 +6,7 @@ const app = express();
 app.get('/', (req, res) => {
 
     // Sending the response
+    console.log("**********Hello World!*********")
     res.send('Hello World!')
 
     // Ending the response
